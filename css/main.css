@@ -3185,6 +3185,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     left: 274px;
     display: inline-block;
     flex: 0 0 55px;
+
   }
 }
 
@@ -3210,8 +3211,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .header-left .image-box2 {
     position: absolute;
-    bottom: -72px;
-    right: 24px;
+    bottom: -142px;
+    right: 4px;
     display: inline-block;
     flex: 0 0 55px;
   }
@@ -3240,8 +3241,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .header-left .image-box3 {
     position: absolute;
-    bottom: 12px;
-    right: -24px;
+    bottom: -18px;
+    right: 44px;
     display: inline-block;
     flex: 0 0 55px;
   }
