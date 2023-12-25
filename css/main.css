@@ -2698,10 +2698,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-banner-area .owl-nav,
 .condition-area .owl-nav,
 .event-area .owl-nav {
-  right: 4.5%;
+  right: 3.75%;
   position: absolute;
   z-index: 3;
-  bottom: -14.5px;
+  bottom: -12.5px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -3204,8 +3204,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .header-left .image-box {
     position: absolute;
-    top: -2px;
-    left: 262px;
+    top: -22px;
+    right: 38px;
     display: inline-block;
     flex: 0 0 55px;
 
@@ -3315,13 +3315,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .brand-area .owl-brand .item {
   text-align: center;
-  max-width: 65%;
+  max-width: 66%;
+  min-height: 65%;
 }
 
 @media (max-width: 768px) {
   .brand-area .owl-brand .item {
-    text-align: center;
-    max-width: 50%;
+    max-width: 275px;
     margin-left: 35%;
     margin-right: 35%;
   }
