@@ -2651,7 +2651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-area {
   background: #fff;
-  background-image: url(../img/hero/hero-bg-neo.png);
+  background-image: url(../img/hero/hero-bg.png);
   background-position: center;
   background-size: 100%;
 }
@@ -3321,7 +3321,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .brand-area .owl-brand .item {
-    max-width: 275px;
+    max-width: 375px;
     margin-left: 35%;
     margin-right: 35%;
   }
@@ -3344,6 +3344,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .brand-area .owl-brand .item img {
+      min-width: 194px;
+      margin-left: -40px;
+  }
 }
 
 .brand-area .owl-brand .item:hover img {
