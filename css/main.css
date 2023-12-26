@@ -3468,7 +3468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 98px;
   font-size: 9rem;
   line-height: 0;
-  opacity: .2;
+  opacity: .4;
   color: rgb(210, 210, 210);
   z-index: 0;
 }
