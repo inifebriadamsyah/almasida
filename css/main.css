@@ -3473,6 +3473,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 0;
 }
 
+@media (max-width: 768px) {
+  .collection-box .iso-card img {
+    position: relative;
+    right: -50.5%;
+    top: 44%;
+    height: 102px;
+    font-size: 9rem;
+    line-height: 0;
+    opacity: .4;
+    color: rgb(210, 210, 210);
+    z-index: 0;
+  }
+
+}
+
 
 .condition-area .owl-carousel .owl-nav {
   right: -28px;
